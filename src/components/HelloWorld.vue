@@ -8,6 +8,9 @@
         >vue-cli documentation</a
       >.
     </p>
+    <div>
+      <HelloButton />
+    </div>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li>
@@ -105,10 +108,15 @@
 <script lang="ts">
 import Vue from "vue";
 
+import HelloButton from "./HelloButton.vue"
+
 export default Vue.extend({
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  components: {
+    HelloButton
   }
 });
 </script>
