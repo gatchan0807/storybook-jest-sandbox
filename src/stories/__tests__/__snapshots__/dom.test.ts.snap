@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots HelloButton default 1`] = `
+<button>
+  YEAH Button
+</button>
+`;
+
+exports[`Storyshots HelloButton label 1`] = `
+<div>
+  <button>
+    Hey world!!
+  </button>
+   
+  <button>
+    こんにちは!!!
+  </button>
+   
+  <button>
+    🙋🙋🙋
+  </button>
+</div>
+`;
+
+exports[`Storyshots MainTitle default 1`] = `
+<h1
+  class="title-normal"
+>
+  Default
+</h1>
+`;
+
+exports[`Storyshots MainTitle size 1`] = `
+<div>
+  <h1
+    class="title-small"
+  >
+    Small size title
+  </h1>
+   
+  <h1
+    class="title-"
+  >
+    Normal size title
+  </h1>
+   
+  <h1
+    class="title-big"
+  >
+    Big size title
+  </h1>
+</div>
+`;
