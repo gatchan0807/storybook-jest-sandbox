@@ -1,8 +1,29 @@
-# これなに
+# component-sample
 
-Storybook + Jest + StoryshotsでUIテストするやつを書いてみるやつ
+## Project setup
+```
+yarn install
+```
 
-# 見た記事リスト
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-- https://engineering.mercari.com/blog/entry/2018-12-19-123834/
-- https://qiita.com/sterashima78/items/8db32368289e4859480b
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Run your unit tests
+```
+yarn test:unit
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
