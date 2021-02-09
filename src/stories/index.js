@@ -13,6 +13,7 @@ storiesOf("HelloButton", module)
   // label
   .add("label", () => ({
     components: { HelloButton },
+    // ここのtemplateの要素はVueの<template>タグと一緒で1つの要素しか表示してくれないので<div>で囲むんやで
     template: `
         <div>
             <HelloButton label="Hey world!!" />
