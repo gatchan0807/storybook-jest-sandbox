@@ -72,6 +72,10 @@
     "not dead"
   ],
   "jest": {
-    "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel"
+    "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel",
+    "transform": {
+      "^.+\\.(js|jsx)?$": "babel-jest"
+    },
+    "setupFiles": ["./.storybook/jest-setup.js"]
   }
 }
