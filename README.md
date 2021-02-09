@@ -8,6 +8,7 @@ yarn install
 ### Compiles and hot-reloads for development
 ```
 yarn serve
+=> http://localhost:8080
 ```
 
 ### Compiles and minifies for production
@@ -23,6 +24,18 @@ yarn test:unit
 ### Lints and fixes files
 ```
 yarn lint
+```
+
+### Start your storybook
+```
+yarn storybook
+=> http://localhost:9090
+```
+
+### Run your unit tests and Start coverage server
+```
+yarn coverage
+=> http://localhost:1234
 ```
 
 ### Customize configuration
