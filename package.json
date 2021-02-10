@@ -9,6 +9,7 @@
     "test:unit:update": "vue-cli-service test:unit -u",
     "lint": "vue-cli-service lint",
     "storybook": "npx start-storybook -p 9090",
+    "storybook:build": "npx build-storybook",
     "coverage": "vue-cli-service test:unit && http-server -a localhost -p 1234 ./coverage-snapshot/lcov-report/"
   },
   "dependencies": {
