@@ -1,4 +1,4 @@
-# component-sample
+# storybook-jest-sandbox
 
 ## Project setup
 ```
